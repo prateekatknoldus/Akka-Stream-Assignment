@@ -1,0 +1,55 @@
+{
+
+  "type": "object",
+
+  "properties": {
+
+    "trades": {
+
+      "type": "array",
+
+      "items": [
+
+        {
+
+          "type": "object",
+
+          "properties": {
+
+            "symbol": {
+
+              "type": "string"
+
+            },
+
+            "price": {
+
+              "type": "number"
+
+            }
+
+          },
+
+          "required": [
+
+            "symbol",
+
+            "price"
+
+          ]
+
+        }
+
+      ]
+
+    }
+
+  },
+
+  "required": [
+
+    "trades"
+
+  ]
+
+}

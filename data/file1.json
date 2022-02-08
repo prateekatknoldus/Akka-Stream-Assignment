@@ -1,0 +1,11 @@
+{
+  "trades": [{
+      "symbol": "ABC",
+      "price": 16
+    },
+    {
+      "symbol": "XYZ",
+      "price": 14
+    }
+  ]
+}
